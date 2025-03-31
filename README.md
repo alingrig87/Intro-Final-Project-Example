@@ -48,27 +48,6 @@ Romanian_Cities_Portfolio/
 ✅ Crearea unei structuri responsive și plăcute vizual  
 ✅ Utilizarea imaginilor în pagini
 
-## Cum rulez proiectul local
-
-1. Descarcă sau clonează proiectul:
-   ```bash
-   git clone https://github.com/username/Romanian_Cities_Portfolio.git
-   ```
-2. Deschide `index.html` cu orice browser.
-
-## Cum public pe **GitHub Pages**
-
-1. Asigură-te că ai proiectul într-un repository public pe GitHub.
-2. Mergi la:
-   ```
-   Settings > Pages > Source > branch: main / root
-   ```
-3. Apasă **Save**
-4. Vei primi un link de forma:
-   ```
-   https://username.github.io/Romanian_Cities_Portfolio/
-   ```
-
 ## Sfaturi utile
 
 ✔️ Imaginile trebuie să fie plasate corect în folderul `img/`  
