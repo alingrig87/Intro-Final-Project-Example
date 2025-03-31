@@ -1,0 +1,139 @@
+/* Selector universal - afectează toate elementele din pagină */
+* {
+  margin: 0; /* Elimină marginile implicite */
+  padding: 0; /* Elimină spațiile interne implicite */
+  box-sizing: border-box; /* Include padding și border în dimensiunea totală a elementului */
+}
+
+/* Selector pentru body - afectează întreaga pagină */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Font modern, ușor de citit */
+  background-color: #f4f6f9; /* Culoare de fundal deschisă */
+  color: #333; /* Culoarea textului - gri închis */
+  line-height: 1.7; /* Spațiere mai mare între rânduri */
+  padding: 20px; /* Spațiu interior în jurul întregului conținut */
+}
+
+/* Selector pentru elementul <nav> - bara de navigație */
+nav {
+  background-color: #003366; /* Fundal albastru închis */
+  padding: 15px; /* Spațiere internă */
+  text-align: center; /* Centrare pe orizontală a linkurilor */
+  border-radius: 8px; /* Colțuri rotunjite */
+  margin-bottom: 30px; /* Spațiu sub navbar */
+}
+
+/* Selector pentru toate linkurile <a> din interiorul nav */
+nav a {
+  color: white; /* Text alb */
+  text-decoration: none; /* Elimină sublinierea */
+  margin: 0 15px; /* Spațiu între linkuri */
+  font-weight: bold; /* Text îngroșat */
+  transition: color 0.3s; /* Efect de tranziție la hover */
+}
+
+/* Selector pentru linkuri din nav când mouse-ul trece peste ele */
+nav a:hover {
+  color: #ffcc00; /* Schimbă culoarea la hover */
+}
+
+/* Selector pentru <header> - secțiunea de titlu */
+header {
+  text-align: center; /* Tot conținutul din header este centrat */
+  margin-bottom: 30px; /* Spațiu sub header */
+}
+
+/* Selector pentru titlul principal */
+h1 {
+  color: #003366; /* Culoare albastru închis */
+  margin-bottom: 10px; /* Spațiu sub titlu */
+}
+
+/* Selector pentru titluri secundare */
+h2 {
+  color: #0055aa; /* Albastru mediu */
+  margin-bottom: 8px; /* Spațiu sub titlu */
+}
+
+/* Selector pentru titluri de nivel 3 */
+h3 {
+  color: #0077cc; /* Albastru mai deschis */
+}
+
+/* Selector pentru paragrafe */
+p {
+  margin-bottom: 15px; /* Spațiu sub paragraf */
+}
+
+/* Selector pentru liste neordonate */
+ul {
+  list-style-type: circle; /* Folosește puncte sub formă de cerc */
+  padding-left: 20px; /* Indentare a listei */
+  margin-bottom: 15px; /* Spațiu sub listă */
+}
+
+/* Selector pentru orice <section> */
+section {
+  background: white; /* Fundal alb */
+  padding: 20px; /* Spațiu interior */
+  margin-bottom: 20px; /* Spațiu între secțiuni */
+  border-radius: 8px; /* Colțuri rotunjite */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Efect de umbră ușoară */
+}
+
+/* Selector pentru imagini */
+img {
+  width: 100%; /* Imaginea ocupă toată lățimea disponibilă */
+  max-width: 500px; /* Nu va depăși 500px */
+  display: block; /* Se comportă ca un bloc */
+  margin: 10px auto; /* Centrare și spațiere */
+  border-radius: 8px; /* Colțuri rotunjite */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Umbră discretă */
+}
+
+/* Selector pentru footer */
+footer {
+  text-align: center; /* Textul este centrat */
+  margin-top: 30px; /* Spațiu deasupra */
+  font-size: 0.9em; /* Font mai mic */
+  color: #777; /* Text gri deschis */
+}
+
+/* Formularul de contact */
+form {
+  background: white; /* Fundal alb pentru formular */
+  max-width: 400px; /* Lățime maximă */
+  margin: 0 auto; /* Centrare pe orizontală */
+  padding: 20px; /* Spațiere internă */
+  border-radius: 8px; /* Colțuri rotunjite */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Umbră discretă */
+}
+
+/* Etichete (labels) */
+form label {
+  display: block; /* Fiecare etichetă ocupă un rând întreg */
+  margin-bottom: 5px; /* Spațiu sub fiecare label */
+  font-weight: bold; /* Text îngroșat */
+}
+
+/* Câmpuri de input și zona de text */
+form input,
+form textarea {
+  width: 100%; /* Ocupă toată lățimea formularului */
+  padding: 8px; /* Spațiere internă */
+  margin-bottom: 15px; /* Spațiu sub fiecare câmp */
+  border: 1px solid #ccc; /* Chenar gri */
+  border-radius: 4px; /* Colțuri rotunjite */
+}
+
+/* Butonul de trimitere */
+form button {
+  width: 100%; /* Ocupă toată lățimea */
+  padding: 10px; /* Spațiere internă */
+  background-color: #003366; /* Fundal albastru */
+  color: white; /* Text alb */
+  border: none; /* Fără chenar */
+  border-radius: 4px; /* Colțuri rotunjite */
+  cursor: pointer; /* Cursor de tip mână */
+  transition: background-color 0.3s; /* Tranziție la hover */
+}
